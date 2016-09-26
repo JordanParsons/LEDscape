@@ -38,6 +38,15 @@ will depend on the length of the longest strip.  4 * 32 * longest strip
 bytes are required per frame buffer.  The maximum frame rate also depends
 on the length of th elongest strip.
 
+Debian - RevC (2015-03-01)
+
+	git clone git://github.com/Yona-Appletree/LEDscape
+	cd LEDscape
+	cp /boot/dtbs/3.8.13-bone70/am335x-boneblack.dtb{,.preledscape_bk}
+	cp am335x-boneblack.dtb /boot/dtbs/3.8.13-bone70/
+	modprobe uio_pruss	
+	vi /boot/uEnv.txt
+	reboot
 
 API
 ===
