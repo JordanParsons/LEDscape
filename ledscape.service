@@ -2,8 +2,8 @@
 Description=LEDScape UDP Receiver
 
 [Service]
-WorkingDirectory=LEDSCAPE_PATH/
-ExecStart=LEDSCAPE_PATH/run-ledscape
+WorkingDirectory=/root/rivers-drumbar/LEDscape/
+ExecStart=/root/rivers-drumbar/LEDscape/run.sh
 KillMode=control-group
 
 [Install]
