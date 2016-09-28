@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $(dirname $0)
+#cd $(dirname $0)
 
 if [[ -f ledscape.service ]]; then
 	echo "Enabling Service..."
